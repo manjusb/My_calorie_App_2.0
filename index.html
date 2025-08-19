@@ -150,7 +150,7 @@
                 chatHistory.push({ role: "user", parts: [{ text: prompt }] });
 
                 // Use environment variable if available, otherwise use your API key
-                const apiKey = typeof __api_key !== 'undefined' ? __api_key : "UPDATE YOUR API KEY";
+                const apiKey = typeof __api_key !== 'undefined' ? __api_key : "YOUR_API_KEY_HERE";
 
                 const payload = {
                     contents: [
@@ -207,3 +207,4 @@
     </script>
 </body>
 </html>
+
